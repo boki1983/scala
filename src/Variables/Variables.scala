@@ -1,5 +1,6 @@
 /**
   * Created by boki on 5/30/16.
+  * Because Scala is hybrid language(oo + fp), it supports mutable(var) and immutable(val)
   */
 
 object Variables {
