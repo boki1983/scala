@@ -12,7 +12,7 @@ object MultiDimAry {
     // build a matrix
     for (i <- 0 to 2) {
       for ( j <- 0 to 2) {
-        myMatrix = j;
+        myMatrix(i)(j) = j;
       }
     }
 
