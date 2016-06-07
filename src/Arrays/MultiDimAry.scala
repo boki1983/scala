@@ -3,11 +3,12 @@
   */
 
 // _ is wildcard
-import Arrays._
+import Array._
 
 object MultiDimAry {
   def main(args: Array[String]) {
-    var myMatrix = Arrays.ofDim[Int]
+
+    var myMatrix = Array.ofDim[Int](3,3);
     // build a matrix
     for (i <- 0 to 2) {
       for ( j <- 0 to 2) {
